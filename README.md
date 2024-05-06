@@ -1,5 +1,5 @@
 # Raindrops-Model
-This project aims to model rain and the dynamics of the raindrops once they land on a pond. I decided it was an interesting phyisical phenomena where I could exploit some of the knowledge gained thorughout my learning on stochastic processes and differential equations, making a basic computer simulated model.
+This project aims to model rain and the dynamics of the raindrops once they land on a pond. I decided it was an interesting physical phenomena where I could exploit some of the knowledge gained thorughout my learning on stochastic processes and differential equations, making a basic computer simulated model.
 # Stochastic component of the model 
 # How is the rain modeled? 
 First of all, I let $N(t)$ be the number of droplets that have fallen after $t$ units of time and $`\{N(t),t>=0\}`$ be a Poisson process with rate $\lambda$ droplets per unit of time. 
