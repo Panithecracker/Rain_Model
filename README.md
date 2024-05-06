@@ -16,9 +16,15 @@ $R(t) = \epsilon + \dfrac{A}{\mu}+\dfrac{A}{1-\mu}*(exp(-t)-\dfrac{exp(-\mu t)}{
 
 
 
+
+
+
 # Example: INTENSE RAIN 
 The following results uses $\lambda = 15$ drops per unit of time for the stochastic raining process , $A =1, \mu = 1.8$
 It could serve as a decent way to simulate an intense rain during a storm.
+
+https://github.com/Panithecracker/Raindrops-Model/assets/97905110/d31e4699-38d4-478b-b896-fdcb7344849e
+
 ![Intense_counts](https://github.com/Panithecracker/Raindrops-Model/assets/97905110/607e529e-782d-4c48-b8eb-8a414c1fc7f5)
 
 ![Intense_positions](https://github.com/Panithecracker/Raindrops-Model/assets/97905110/a8613534-5f44-40d5-8056-d70ffd5b87dc)
@@ -26,6 +32,9 @@ It could serve as a decent way to simulate an intense rain during a storm.
 # Example: STARTING RAIN
 The following case uses $\lambda = 3$ droplets per unit of time for the stochastic raining process, $A = 1, \mu = 1.8$
 It could immitate the dynamics of a just started rain, where some few drops start hitting the ground with some longer pauses in between different to the above case, which could be the later behaviour
+
+https://github.com/Panithecracker/Raindrops-Model/assets/97905110/645b6849-3f40-4db1-9541-f41558f87246
+
 ![StartingRain_counts](https://github.com/Panithecracker/Raindrops-Model/assets/97905110/802745a6-68be-4016-bcda-bd0ed7c4ac24)
 ![StartingRain_positions](https://github.com/Panithecracker/Raindrops-Model/assets/97905110/125eb1b1-1ed8-4b8f-b36c-ef16f958e151)
 
