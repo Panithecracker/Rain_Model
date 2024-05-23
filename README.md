@@ -12,6 +12,8 @@ The idea is that once a droplet hits the pond, the water particles that are at a
 $R''(t) = Aexp(-t) -\mu R'(t)$ with $R(0) = \epsilon$ and $R'(0) = 0$. Here $A > 0$ is the maximum acceleration which happens at $t = 0$ and $\mu >0$ is the water drag coefficient. This is a first order linear drag model with a time exponential forcing, for the radial velocity $R'$. I also explored the dynamics of the model using other equations (same initial conditions) with very similar qualitative and quantitative results such as the nonlinear equation $R''(t) = 1/R(t) -\mu R'(t)$. However, they gave no more significant differences in the simulations and they suffer from the flaw of having no closed form solution, which meant more time consuming for the computer to previously approximate their solutions nummerically. The advantage of the linear drag model is that I could solve it analytically. The solution of the linear equation problem is then:
 $R(t) = \epsilon + \dfrac{A}{\mu}+\dfrac{A}{1-\mu}*(exp(-t)-\dfrac{exp(-\mu t)}{\mu})$
 An interactive plot of the position, velocity and acceleration based on different parameters can be found here : https://www.desmos.com/calculator/shnfoqc6hr
+![image](https://github.com/Panithecracker/Raindrops-Model/assets/97905110/97a8ae25-2ab0-442c-be36-c25ce1b18439)
+
 
 
 # Example: INTENSE RAIN 
