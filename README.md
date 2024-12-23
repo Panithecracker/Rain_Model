@@ -1,6 +1,5 @@
 # Raindrops-Model
-This project aims to model rain and the dynamics of the raindrops once they land on a pond. I thought it was an interesting physical phenomena to model, where I could use some of the knowledge gained throughout my learning on stochastic processes and differential equations. The simulations model the randomness ocurrrence of water raindrops which land in random points with a random rate based on a Poisson  process. Moreover, the way in which the water particles near a hitting point move is governed by a differential equation which takes into account an intense short force due to the impact on the surface counterbalanced by the water drag force in the opposite direction.
-# Stochastic properties of the model:
+This project aims to model rain and the dynamics of the raindrops once they land on a pond. I thought it was an interesting physical phenomena to model, where I could combine ideas from Stochastic Processes and differential equations. I made a model which simulates the random location and landing frequency of water drops as well as their effect on the creation of ripples on the surface.
 # How is the rain modeled? 
 I let $N(t)$ be the number of droplets that have fallen after $t$ units of time and $`\{N(t),t>=0\}`$ be a Poisson process with rate $\lambda$ droplets per unit of time. 
 From this, it is known that $N(T) \sim POISSON(\lambda T)$. 
